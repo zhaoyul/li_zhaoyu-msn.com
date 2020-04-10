@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: include
+# key: >inc
+# --
+(:require
+   ["moment" :as moment]
+   [reagent.core :as r]
+   [re-frame.core :as rf]
+   [com.rpl.specter :as st]
+   [goog.string :as gstring]
+   [redcreation.redant.reagent :as ant]
+   [custom-manage.craftwork-new.craftwork-events]
+   [custom-manage.components.common-page :as page]
+   [custom-manage.components.category-select :as category]
+   [custom-manage.components.hc-upload :refer [image-upload]])

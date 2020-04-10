@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: verse
+# key: <v
+# --
+#+BEGIN_VERSE
+ ${1: Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs}
+
+    ---${2: AlexSchroeder}
+#+END_VERSE

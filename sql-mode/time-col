@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: time
+# key: tc
+# --
+\`${1:xx}_time\` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '${2:xx}时间',

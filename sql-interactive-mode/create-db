@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: create-db
+# key: >db
+# --
+create database pdb;

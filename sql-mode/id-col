@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: id-col
+# key: idc
+# --
+\`${1:xx}id\` varchar(40) NOT NULL COMMENT '${2:主键}',

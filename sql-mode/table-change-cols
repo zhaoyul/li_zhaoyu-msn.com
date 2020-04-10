@@ -1,0 +1,10 @@
+# key: tcc
+# name: table-change-cols
+# --
+\`delete_flag\` varchar(4) DEFAULT '0' COMMENT '删除标记 0：未删除 1：已删除',
+\`create_time\` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+\`create_user_id\` varchar(40) DEFAULT NULL COMMENT '创建人id',
+\`create_user_name\` varchar(80) DEFAULT NULL COMMENT '创建人名称',
+\`update_time\` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '最后更新时间',
+\`update_user_id\` varchar(40) DEFAULT NULL COMMENT '最后修改人id',
+\`update_user_name\` varchar(80) DEFAULT NULL COMMENT '最后修改人名称',

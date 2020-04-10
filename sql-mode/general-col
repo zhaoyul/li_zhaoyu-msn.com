@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: general-col
+# key: gc
+# --
+\`${1:col-name}\` varchar(${3:40}) DEFAULT NULL COMMENT '${2:字段名称}',

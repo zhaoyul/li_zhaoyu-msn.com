@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tiny-col
+# key: tiny
+# --
+\`${1:col-id}\` tinyint DEFAULT 0 COMMENT '${2:xx}标志:0${3:xx} 1${4:xx}',

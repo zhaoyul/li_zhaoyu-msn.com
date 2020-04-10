@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rf/reg-sub
+# key: sub
+# --
+(rf/reg-sub
+ :{$1:...}
+ (fn [db]
+   (get-in db [$2] {$3:default})))

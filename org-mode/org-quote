@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: org-quote
+# key: <q
+# --
+#+BEGIN_VERSE
+  ${1: Everything should be made as simple as possible, but not any simpler}
+
+      ---${2: Albert Einstein}
+#+END_VERSE
