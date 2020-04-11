@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: with-private-fns
+# key: pfn
+# --
+(defmacro with-private-fns
+  "Refers private fns from ns and runs tests in context."
+  [[ns fns] & tests]
+  `(let ~(reduce #(conj %1 %2 `(ns-resolve '~ns '~%2)) [] fns)
+     ~@tests))

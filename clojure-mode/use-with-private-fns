@@ -1,0 +1,16 @@
+# key: upfn
+# name: use-with-private-fns
+# --
+(with-private-fns
+  [${1:`(replace-regexp-in-string
+ "_" "-"
+ (replace-regexp-in-string
+  "/" "."
+  (replace-regexp-in-string
+   "_test" ""
+   (replace-regexp-in-string ".*/test/clj/" ""  (file-name-sans-extension (buffer-file-name))))))`}
+          [${2:func}]]
+  (t/deftest 测试组${3:内容描述}
+    (t/testing "${4:测试内容}"
+      (t/is ${5:...}  ))
+      ))
